@@ -51,7 +51,7 @@ Windmax = [1.5*25*25*1.5/mpc.baseMVA; 0.75*20*20*1.5/mpc.baseMVA];
 Nes = 3; % number of energy storage
 Ines = [13; 23; 27];
 Ies = zeros(Nbus, Nes);
-Ies(13, 1) = 1; Ies(23, 2) = 1; Ies(27, 1) = 1;
+Ies(13, 1) = 1; Ies(23, 2) = 1; Ies(27, 3) = 1;
 ESemax = [50; 50; 50];
 ESpmax = [10; 10; 10];
 
